@@ -1,0 +1,2 @@
+CREATE SCHEMA ods;
+CREATE SCHEMA dmt;

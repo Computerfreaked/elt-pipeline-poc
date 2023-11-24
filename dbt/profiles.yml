@@ -1,0 +1,14 @@
+dbt_project:
+  outputs:
+
+    dev:
+      type: postgres
+      threads: 1
+      host: 172.17.0.2
+      port: 5432
+      user: notsosecretusername
+      pass: supersecretpassword
+      dbname: the_database
+      schema: dmt
+
+  target: dev
